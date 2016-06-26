@@ -4,9 +4,6 @@
  * Allows for triggering Seneca actions based on express request properties
  */
 
-/// <reference path="typings/globals/express/index.d.ts"/>
-/// <reference path="typings/globals/seneca-node/index.d.ts"/>
-
 import { Request, Response, NextFunction } from "express";
 import { ISeneca, IPlugin } from "seneca";
 import { pick } from "lodash";
