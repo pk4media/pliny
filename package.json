@@ -1,0 +1,25 @@
+{
+  "name": "pliny",
+  "version": "1.0.0",
+  "description": "Express middleware Seneca library",
+  "main": "bin/index.js",
+  "typings": "bin/index.d.ts",
+  "scripts": {
+    "postinstall": "npm run typings && npm run build",
+    "typings": "typings install",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "seneca",
+    "express",
+    "middleware"
+  ],
+  "author": "David Negstad <davidn@pk4media.com> (https://github.com/pk4media)",
+  "license": "MIT",
+  "dependencies": {
+    "jsonic": "^0.2.2",
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {}
+}
