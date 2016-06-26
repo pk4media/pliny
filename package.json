@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Express middleware Seneca library",
   "main": "bin/index.js",
-  "typings": "bin/index.d.ts",
   "scripts": {
     "postinstall": "npm run typings && npm run build",
     "typings": "typings install",
